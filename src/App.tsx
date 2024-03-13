@@ -8,6 +8,7 @@ import {
 } from "./components";
 import { ButtonGradient } from "./assets/svg";
 import { Hero } from "./components";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Services />
         <Pricing />
         <Roadmap />
+        <Footer />
       </div>
       <ButtonGradient />
     </>
