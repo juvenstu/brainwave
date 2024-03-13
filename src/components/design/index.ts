@@ -5,7 +5,7 @@ export {
   HambugerMenu,
 } from "./Header";
 export {
-  Gradient,
+  Gradient as HeroGradient,
   BottomLine,
   BackgroundCircles as HeroBackgroundCircles,
 } from "./Hero";
@@ -18,3 +18,4 @@ export {
   VideoBar,
 } from "./Services";
 export { LeftLine, RightLine } from "./Pricing";
+export { Gradient as RoadmapGradient } from "./Roadmap";

@@ -3,6 +3,7 @@ import {
   Collaboration,
   Header,
   Pricing,
+  Roadmap,
   Services,
 } from "./components";
 import { ButtonGradient } from "./assets/svg";
@@ -18,6 +19,7 @@ const App = () => {
         <Collaboration />
         <Services />
         <Pricing />
+        <Roadmap />
       </div>
       <ButtonGradient />
     </>

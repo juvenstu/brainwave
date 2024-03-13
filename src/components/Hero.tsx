@@ -4,7 +4,7 @@ import Button from "./Button";
 import Section from "./Section";
 import { ScrollParallax } from "react-just-parallax";
 import { heroIcons } from "../constants";
-import { Gradient, HeroBackgroundCircles, BottomLine } from "./design";
+import { HeroGradient, HeroBackgroundCircles, BottomLine } from "./design";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
@@ -73,7 +73,7 @@ const Hero = () => {
                 </ScrollParallax>
               </div>
             </div>
-            <Gradient />
+            <HeroGradient />
           </div>
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
