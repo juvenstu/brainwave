@@ -6,3 +6,4 @@ export { default as PlusSVG } from "./PlusSVG";
 export { default as Arrow } from "./Arrow";
 export { default as ClipPath } from "./ClipPath";
 export { default as ChatBubbleWing } from "./ChatBubbleWing";
+export { default as brackets } from "./Brackets";

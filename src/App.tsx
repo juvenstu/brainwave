@@ -1,4 +1,10 @@
-import { Benefits, Collaboration, Header, Services } from "./components";
+import {
+  Benefits,
+  Collaboration,
+  Header,
+  Pricing,
+  Services,
+} from "./components";
 import { ButtonGradient } from "./assets/svg";
 import { Hero } from "./components";
 
@@ -11,6 +17,7 @@ const App = () => {
         <Benefits />
         <Collaboration />
         <Services />
+        <Pricing />
       </div>
       <ButtonGradient />
     </>

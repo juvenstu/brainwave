@@ -17,3 +17,4 @@ export {
   VideoChatMessage,
   VideoBar,
 } from "./Services";
+export { LeftLine, RightLine } from "./Pricing";
