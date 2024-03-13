@@ -9,3 +9,4 @@ export {
   BottomLine,
   BackgroundCircles as HeroBackgroundCircles,
 } from "./Hero";
+export { GradientLight } from "./Benefits";
