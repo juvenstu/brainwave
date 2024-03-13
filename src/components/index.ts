@@ -8,3 +8,4 @@ export { default as CompanyLogos } from "./CompanyLogos";
 export { default as Benefits } from "./Benefits";
 export { default as Heading } from "./Heading";
 export { default as Collaboration } from "./Collaboration";
+export { default as Services } from "./Services";

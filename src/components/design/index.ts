@@ -11,3 +11,9 @@ export {
 } from "./Hero";
 export { GradientLight } from "./Benefits";
 export { LeftCurve, RightCurve } from "./Collaboration";
+export {
+  Gradient as ServicesGradient,
+  PhotoChatMessage,
+  VideoChatMessage,
+  VideoBar,
+} from "./Services";

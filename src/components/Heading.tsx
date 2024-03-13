@@ -3,9 +3,11 @@ import { twMerge } from "tailwind-merge";
 const Heading = ({
   className,
   title,
+  text,
 }: {
-  className: string;
-  title: string;
+  className?: string;
+  title?: string;
+  text?: string;
 }) => {
   return (
     <div
@@ -15,6 +17,7 @@ const Heading = ({
       )}
     >
       {title && <h2 className="h2">{title}</h2>}
+      {text && <p className="body-2 mt-4 text-n-4">{text}</p>}
     </div>
   );
 };
